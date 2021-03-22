@@ -1,0 +1,272 @@
+
+<html>
+
+<head>
+	<title>Goal 3, Global Health and Well-Being</title>
+</head>
+<!-- This is what will be the title of my website as it is using the head tag-->
+
+<body style="background-color:LightGray;">
+
+<h1 style="color:black;">This website will adress Goals 3 and 10 of the UN Sustainable Goals</h1>
+<h2 style="color:green;">This page of the website will adress Goal 3 specifically</h2>
+
+<!-- These are the headers that will help imform the user of specific details of my website-->
+
+<img src="goal3.png" alt="test" width="500" height="500">
+
+<p style="font-size:160%;">Here are a few facts about Goal 3 </p>
+
+
+
+
+<ul>
+	<li>Goal 3 is the UN goal that is associated with Global Health and Wellbeing</li>
+	<li>The Covid-19 has had a major effect on this particular goal, Healthcare systems around the world have become overwhelmed as a result</li>
+	<li>This page will ofter more information</li>
+</ul>
+
+<h3 style="color:blue;">Here is the Link to the UN Goals Website</h3>
+
+<a href="https://sdgs.un.org/goals">THE 17 GOALS</a>
+
+<h3 style="color:blue;">Here is a Link to a video that furthre explains Goal 3
+
+<a href="https://youtu.be/z_jjX-i45hU">SDG3 Heath & Well Being</a>
+
+<h3 style="color:red;">The data on the graph below is not real</h1>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
+      <!---->
+      <!---->
+
+  <head> <!---------------------------------------------------------------------------------->
+  
+    <style>
+
+        .chart-container {
+        width: 500px;
+        height:400px
+        }
+
+    </style>
+    
+  </head>
+
+  <body> <!---------------------------------------------------------------------------------->
+
+    <div class="chart-container">
+        <canvas id="myChart"></canvas>
+    </div>
+    <div class="chart-container">
+        <canvas id="myChart"></canvas>
+    </div>
+    <div class="chart-container">
+        <canvas id="myChart"></canvas>
+    </div>
+    
+  </body> 
+
+
+  <script> //-------------------------------------------------------------------------------->
+      var ctx = document.getElementById('myChart');
+
+      var myChart = new Chart(ctx, {
+          type: 'line',
+          data: {
+                labels: ['1900', '1925', '1950', '1975', '2000', '2015'],
+                datasets: [{
+                label: '# Average Life Expectany',
+            
+                data: [40, 52, 69, 72, 75, 82],
+
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',   // 1st bar
+                    'rgba(54, 162, 235, 0.2)',   // 2nd bar
+                    'rgba(255, 206, 86, 0.2)',   // 3rd bar
+                    'rgba(75, 192, 192, 0.2)',   // 4th bar
+                    'rgba(153, 102, 255, 0.2)',  // 5th bar
+                    'rgba(255, 159, 64, 0.2)'    // 6th bar
+                ],
+
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+
+                borderWidth: 1
+                }]
+            },
+    
+            options: {
+            scales: {
+              yAxes: [{
+                  ticks: {
+                    beginAtZero: true
+                  }
+              }]
+            }
+
+            
+          }
+      });
+
+</script>
+
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
+      <!---->
+      <!---->
+
+  <head> <!---------------------------------------------------------------------------------->
+  
+    <style>
+
+        .chart-container {
+        width: 500px;
+        height:400px
+        }
+
+    </style>
+    
+  </head>
+
+  <body> <!---------------------------------------------------------------------------------->
+
+    <div class="chart-container">
+        <canvas id="myeChart"></canvas>
+    </div>
+    <div class="chart-container">
+        <canvas id="myeChart"></canvas>
+    </div>
+    <div class="chart-container">
+        <canvas id="myeChart"></canvas>
+    </div>
+    
+  </body> 
+
+
+  <script> //-------------------------------------------------------------------------------->
+      var ctx = document.getElementById('myeChart');
+
+      var myChart = new Chart(ctx, {
+          type: 'pie',
+          data: {
+                labels: ['Cancer', 'AIDS', 'Malaria', 'Ebola', 'Flu', 'Covid'],
+                datasets: [{
+                label: '# Desisease that cause death',
+            
+                data: [40, 55, 64, 62, 75, 82],
+
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',   // 1st bar
+                    'rgba(54, 162, 235, 0.2)',   // 2nd bar
+                    'rgba(255, 206, 86, 0.2)',   // 3rd bar
+                    'rgba(75, 192, 192, 0.2)',   // 4th bar
+                    'rgba(153, 102, 255, 0.2)',  // 5th bar
+                    'rgba(255, 159, 64, 0.2)'    // 6th bar
+                ],
+
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+
+                borderWidth: 1
+                }]
+            },
+    
+            options: {
+            scales: {
+              yAxes: [{
+                  ticks: {
+                    beginAtZero: true
+                  }
+              }]
+            }
+
+            
+          }
+      });
+
+</script>
+
+      <!---->
+      <!---->
+
+<p>
+  Throughout the decades, the world has taken great strides in imporving the health and well being of individuals around the world. In the UN sustianable goals, goal number 3 is the goal that addresses this topic. 
+
+  <head> <!---------------------------------------------------------------------------------->
+  
+    <style>
+
+        .chart-container {
+        width: 500px;
+        height:400px
+        }
+
+    </style>
+    
+  </head>
+
+  <head>
+    <style>
+
+      .flex-container {
+
+          display: flex;
+          height: 600px;
+          width: 800px;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          align-content: space-around;
+          background-color: indigo;
+      }
+
+      .flex-container > div {
+          background-color: mistyrose;
+          margin: 10px;
+          padding: 20px;
+          font-size: 30px;
+      }
+    </style>
+  </head>
+
+  <!-- Body  -->
+  <body>
+
+    <div>
+
+       
+      
+        
+            
+    </div> 
+
+    <div class="flex-container">
+
+      <iframe width="853" height="480" src="https://www.youtube.com/embed/z_jjX-i45hU"></iframe>
+
+        <div>Enjoy This Video!</div>
+
+        <div>Have a great day!</div>
+        
+        
+
+    </div>
+
+  </body>
+
+</body>
+</html>
